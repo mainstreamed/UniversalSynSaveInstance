@@ -1,6 +1,12 @@
 
 Object
 
+Capture
+
+ScreenshotCapture
+
+ConfigSnapshot
+
 EditableImage
 
 EditableMesh
@@ -12,8 +18,6 @@ AnimationClip
 AnimationStreamTrack
 
 AnimationTrack
-
-AssetImportSession
 
 AnimationImportData
 
@@ -109,6 +113,10 @@ SelectionLasso
 
 HttpRequest
 
+ImportSession
+
+AssetImportSession
+
 InputObject
 
 JointInstance
@@ -188,6 +196,12 @@ PausedState
 PausedStateBreakpoint
 
 PausedStateException
+
+PlayerData
+
+PlayerDataRecord
+
+PlayerDataRecordConfig
 
 PlayerScripts
 
@@ -284,4 +298,6 @@ UIConstraint
 UILayout
 
 UIGridStyleLayout
+
+WebSocketClient
 
