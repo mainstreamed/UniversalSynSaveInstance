@@ -1167,8 +1167,8 @@ do
 		end)
 
 		if not ok or not API_Dump then
-			warn("[DEBUG] Failed to get " .. version() .. " API Dump, trying latest..")
-			warn("[DEBUG]", err)
+			-- warn("[DEBUG] Failed to get " .. version() .. " API Dump, trying latest..")
+			-- warn("[DEBUG]", err)
 			API_Dump = service.HttpService:JSONEncode(
 				service.HttpService:JSONDecode(
 					game:HttpGet(
